@@ -8,6 +8,8 @@
     <link href="fonts/stylesheet.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="./css/index.css" />
     <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -28,6 +30,73 @@
             </div>
         </div>
     </header>
+    <section class="greetings">
+    <div class="swiper mySwiperFirst">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="container">
+                    <div class="swiper">
+                        <div class="swiper__nav">
+                            <h1>
+                                У тебя <br />
+                                к<br class="brTitle" />
+                                этому талант
+                            </h1>
+                            <div>
+                                <div class="swiper__btn">
+                                    <button>
+                                        <img src="./img/nav_left_btn.svg" alt="" />
+                                    </button>
+                                    <span></span>
+                                    <button class="swiper__btn_next">
+                                        <img src="./img/nav_rigth_btn.svg" alt="" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper__person">
+                            <div class="swiper__img">
+                                <img src="./img/Пекарь.png" alt="Not found" />
+                            </div>
+                            <div class="greetings__proffesion">пекарь</div>
+                            <div class="greetings__name">валентин</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="container">
+                    <div class="swiper">
+                        <div class="swiper__nav woman">
+                            <h1 class="woman__title">
+                                У тебя <br />
+                                всё под контролем
+                            </h1>
+                            <div>
+                                <div class="swiper__btn active">
+                                    <button>
+                                        <img src="./img/nav_left_btn.svg" alt="" />
+                                    </button>
+                                    <span></span>
+                                    <button class="swiper__btn_prev">
+                                        <img src="./img/nav_rigth_btn.svg" alt="" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper__person">
+                            <div class="swiper__img woman">
+                                <img class="woman" src="./img/ДевушкаПродавец.png" alt="Not found" />
+                            </div>
+                            <div class="greetings__name woman">ксения</div>
+                            <div class="greetings__proffesion woman">товаровед</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
 
 </body>
 
